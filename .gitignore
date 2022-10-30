@@ -8,3 +8,7 @@
 *.synctex.gz
 *.toc
 *.xdv
+*.bcf
+paper-blx.bib
+*.run.xml
+.DS_Store

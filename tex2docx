@@ -1,1 +1,1 @@
-pandoc -s paper.tex --bibliography=refs.bib -o paper.docx
+pandoc -s --bibliography refs.bib --citeproc --csl elsevier-with-titles.csl paper.tex -M reference-section-title=References -o paper.docx
